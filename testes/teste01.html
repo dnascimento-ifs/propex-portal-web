@@ -11,21 +11,25 @@
     <!-- Cabeçalho -->
     <header>
 
-        <!-- Logo do Projeto -->
-        <a href="#">LOGO DO SITE</a>
+        <div>
 
-        <nav>
+            <!-- Logo do Projeto -->
+            <a href="#">LOGO DO SITE</a>
 
-            <!-- ADICIONAR OS LINKS INTERNOS E REFERÊNCIAS DE ESTILO PRO CSS -->
-            <a href="#historia">HISTORIA-TÉCNICA</a>
+            <nav>
 
-            <a href="#documentarios">DOCUMENTÁRIOS-ESTREVISTA</a>
+                <!-- ADICIONAR OS LINKS INTERNOS E REFERÊNCIAS DE ESTILO PRO CSS -->
+                <a href="#historia">HISTORIA-TÉCNICA</a>
 
-            <a href="#cartografia">CARTOGRAFIA SOCIAL</a>
+                <a href="#documentarios">DOCUMENTÁRIOS-ESTREVISTA</a>
 
-        </nav>
+                <a href="#cartografia">CARTOGRAFIA SOCIAL</a>
 
-        <a href="#documentarios">Assistir vídeos</a>
+            </nav>
+
+            <a href="#documentarios">Assistir vídeos</a>
+
+        </div>
 
     </header>
     <!-- Fim Cabeçalho -->
@@ -38,139 +42,158 @@
         <!-- Hero da Página -->
         <section>
             
-            <!-- Primeira coluna Texto (esquerda) -->
             <div>
-                
-                <h1>FRASE CHAMATIVA PRINCIPAL</h1> <!-- talvez use span pra destacar algo -->
 
-                <p>texto explicativo sobre o portal em menos destaque e mais longo</p>
+                <!-- Primeira coluna Texto (esquerda) -->
+                <div>
+                    
+                    <h1>FRASE CHAMATIVA PRINCIPAL</h1> <!-- talvez use span pra destacar algo -->
 
-                <!-- talvez separe os link em uma div -->
-                <a href="#historia">link chamativo pra ver a historia</a>
+                    <p>texto explicativo sobre o portal em menos destaque e mais longo</p>
 
-                <a href="#cartografia">link chamativo pra ver a cartografia</a>
+                    <!-- talvez separe os link em uma div -->
+                    <a href="#historia">link chamativo pra ver a historia</a>
+
+                    <a href="#cartografia">link chamativo pra ver a cartografia</a>
+
+                </div>
+
+                <!-- Segunda coluna Imagem (direita) -->
+                <div>
+                    IMAGEM
+                </div>
 
             </div>
-
-            <!-- Segunda coluna Imagem (direita) -->
-             <div>
-                IMAGEM
-             </div>
-
 
         </section>
         <!-- Fim Hero da Página -->
 
 
         <!-- Seção de História de Tobias Barreto e das Técnicas de Bordado -->
-        <section>
+        <section id="historia">
 
-            <!-- talvez agrupar titulo e subtitulo numa div, como no template -->
-            <h2>TEXTO CHAMATIVO SOBRE A HISTORIA E LIGAÇÃO COM OS BORDADOS</h2>
+            <div>
 
-            <p>texto em menos destaque para servir de subtitulo que contextualize mais ou menos mas não inteiramente</p> <!-- um resumo em uma frase não tão curta -->
+                <div>
 
+                    <!-- talvez agrupar titulo e subtitulo numa div, como no template -->
+                    <h2>TEXTO CHAMATIVO SOBRE A HISTORIA E LIGAÇÃO COM OS BORDADOS</h2>
 
-            <!-- talvez agrupe história de tobias e técnicas de bordado numa div, como no template -->
-            <!-- História de Tobias -->
-            <section>
+                    <p>texto em menos destaque para servir de subtitulo que contextualize mais ou menos mas não inteiramente</p> <!-- um resumo em uma frase não tão curta -->
+
+                </div>
+
+                <div>
+
+                    <!-- talvez agrupe história de tobias e técnicas de bordado numa div, como no template -->
+                    <!-- História de Tobias -->
+                    <div>
+                        
+                        <!-- enfeitar mais no sentindo estrutural, talvez eu n use no formato de card como no template usa -->
+                        <h3>titulo pro "card" explicativo sobre a historia de tobias</h3>
+
+                        <p>texto longo completo sobre a historia de tobias e como ela se liga com os bordados</p>
+
+                    </div>
+                    <!-- Fim História de Tobias -->
+
+                    <!-- Técnicas de Bordado -->
+                    <div>
+
+                        <!-- usa a tag h4 no lugar de h3, não sei se vou usar assim -->
+                        <h3>titulo pro "card" explicativo sobre as tecnicas de bordado de tobias</h3>
+
+                        <p>texto longo completo sobre as técnicas de bordado que estão presentes em tobias</p>
+
+                    </div>
+                    <!-- Fim Técnicas de Bordado -->
                 
-                <!-- enfeitar mais no sentindo estrutural, talvez eu n use no formato de card como no template usa -->
-                <h3>titulo pro "card" explicativo sobre a historia de tobias</h3>
+                </div>
 
-                <p>texto longo completo sobre a historia de tobias e como ela se liga com os bordados</p>
-
-            </section>
-            <!-- Fim História de Tobias -->
-
-
-            <!-- Técnicas de Bordado -->
-            <section>
-
-                <!-- usa a tag h4 no lugar de h3, não sei se vou usar assim -->
-                <h3>titulo pro "card" explicativo sobre as tecnicas de bordado de tobias</h3>
-
-                <p>texto longo completo sobre as técnicas de bordado que estão presentes em tobias</p>
-
-            </section>
-            <!-- Fim Técnicas de Bordado -->
-
+            </div>
 
         </section>
         <!-- Fim Seção de História de Tobias Barreto e das Técnicas de Bordado -->
 
+
         <!-- Seção Documentários e Entrevistas -->
-        <section>
+        <section id="documentarios">
             
 
-            <!-- Seção Documentários -->
-            <!-- ele usa uma div que agrupa os texto de apresentação e os cards de videos-->
-            <section>
+            <div>
 
-                <span>frase destaque do que é a seção de videos</span> <!-- por exemplo, memória audiovisual -->
-                
-                <h2>TITULO DA SEÇÃO DE VIDEOS</h2>
+                <!-- ele usa uma div que agrupa os texto de apresentação e os cards de videos-->
+                <div>
 
-                <p>texto convidativo a assistir os mini-documentarios e recortes de entrevistas com as mulheres artesãs</p>
+                    <span>frase destaque do que é a seção de videos</span> <!-- por exemplo, memória audiovisual -->
+                    
+                    <h2>TITULO DA SEÇÃO DE VIDEOS</h2>
 
-            </section>
+                    <p>texto convidativo a assistir os mini-documentarios e recortes de entrevistas com as mulheres artesãs</p>
 
-            <section>
+                </div>
 
-                <p><strong>grade de videos com cards de videos de mini-documentarios e recortes de entrevistas</strong></p>
-                <!-- tem um modelo de divisão de divs no template -->
-                
-                <div> <!-- grade de videos -->
+                <div>
 
-                    <div>
-                        Card 1
-                    </div>
+                    <p><strong>grade de videos com cards de videos de mini-documentarios e recortes de entrevistas</strong></p>
+                    <!-- tem um modelo de divisão de divs no template -->
+                    
+                    <div> <!-- grade de videos -->
 
-                    <div>
-                        Card 2
-                    </div>
+                        <div>
+                            Card 1
+                        </div>
 
-                    <div>
-                        Card 3
+                        <div>
+                            Card 2
+                        </div>
+
+                        <div>
+                            Card 3
+                        </div>
+
+                        <!-- adicionar quantos mais cards forem necessários -->
+
                     </div>
 
                 </div>
 
-                <!-- adicionar quantos mais cards forem necessários -->
-
-            </section>
-            <!-- Fim Seção Documentários -->
+            </div>
 
         </section>
         <!-- Fim Seção Documentários e Entrevistas -->
 
 
         <!-- Seção Cartografia Social -->
-        <section>
+        <section id="cartografia">
 
-            <!-- agrupamento dos textos -->
             <div>
 
-                <span>texto menor em destaque que descreve a seção de cartografia</span> <!-- por exemplo, geografia e território -->
-
-                <h2>TITULO DA SEÇÃO SOBRE CARTOGRAFIA</h2>
-
-                <p>texto curto em menor destaque que apresenta um pouco do proposito e forma de uso do mapa de cartografia social</p>
-
-            </div>
-
-            <!-- agrupamento dos elementos do mapa -->
-            <div>
-
-                TEXTOS EXPLICATIVOS DO MAPA
-
-                <!-- mapa em si -->
+                <!-- agrupamento dos textos -->
                 <div>
 
-                    MAPA DE CARTOGRAFIA SOCIAL DOS PONTOS MAPEADOS
+                    <span>texto menor em destaque que descreve a seção de cartografia</span> <!-- por exemplo, geografia e território -->
+
+                    <h2>TITULO DA SEÇÃO SOBRE CARTOGRAFIA</h2>
+
+                    <p>texto curto em menor destaque que apresenta um pouco do proposito e forma de uso do mapa de cartografia social</p>
 
                 </div>
 
+                <!-- agrupamento dos elementos do mapa -->
+                <div>
+
+                    TEXTOS EXPLICATIVOS DO MAPA
+
+                    <!-- mapa em si -->
+                    <div>
+
+                        MAPA DE CARTOGRAFIA SOCIAL DOS PONTOS MAPEADOS
+
+                    </div>
+
+                </div>
+            
             </div>
 
         </section>

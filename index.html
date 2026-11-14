@@ -1,74 +1,224 @@
 <!DOCTYPE html>
-<!-- A tag <!DOCTYPE html> informa ao navegador a versão do html usado. -->
-
-<!-- A tag <html> é onde todo o código fica, definimos nela a lang. -->
 <html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste 02</title>
+    <!-- Adicionar o style.css -->
+</head>
+<body>
+    
+    <!-- Cabeçalho -->
+    <header>
 
-    <!-- A tag <head> é onde todos os metadados (que não aparecem na página) ficam. -->
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Linhas que Contam | Bordadeiras de Tobias Barreto</title>
+        <div>
 
-        <!-- Importa as famílias Playfair Display e Inter -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;500;600;700&display=swap">
+            <!-- Logo do Projeto -->
+            <a href="#">LOGO DO SITE</a>
+
+            <nav>
+
+                <!-- ADICIONAR OS LINKS INTERNOS E REFERÊNCIAS DE ESTILO PRO CSS -->
+                <a href="#historia">HISTORIA-TÉCNICA</a>
+
+                <a href="#documentarios">DOCUMENTÁRIOS-ESTREVISTA</a>
+
+                <a href="#cartografia">CARTOGRAFIA SOCIAL</a>
+
+            </nav>
+
+            <a href="#documentarios">Assistir vídeos</a>
+
+        </div>
+
+    </header>
+    <!-- Fim Cabeçalho -->
 
 
-        <!-- Definição de estilo CSS interno -->
-        <style>
-            body { font-family: 'Inter', sans-serif; }
-            .font-serif-custom { font-family: 'Playfair Display', serif; }
-        </style>
+    <!-- Página Principal -->
+    <main>
 
-        <link rel="stylesheet" href="estilos.css">
 
-    </head>
+        <!-- Hero da Página -->
+        <section>
+            
+            <div>
 
-    <!-- A tag <body> é onde todo o conteúdo visível e interativo da página fica. -->
-    <!-- Adicionar ao body o tailwind ou css puro. -->
-    <body>
-        
-        <!-- Primeiro passo é criar o cabeçalho. -->
-        <header class="cabecalho">
+                <!-- Primeira coluna Texto (esquerda) -->
+                <div>
+                    
+                    <h1>FRASE CHAMATIVA PRINCIPAL</h1> <!-- talvez use span pra destacar algo -->
 
-            <!-- "Título" da página na página -->
-            <div class="cabecalho-container">
+                    <p>texto explicativo sobre o portal em menos destaque e mais longo</p>
 
-                <a href="#" class="logo">
-                    Linhas que <span class="logo-italico">Contam</span>
-                </a>
+                    <!-- talvez separe os link em uma div -->
+                    <a href="#historia">link chamativo pra ver a historia</a>
 
-                <!-- Menu de navegação da página -->
-                <nav class="menu-navegacao">
-                    <a href="#historia" class="menu-link">HISTÓRIA</a>
-                    <a href="#documentarios" class="menu-link">DOCUMENTÁRIOS</a>
-                    <a href="#cartografia" class="menu-link">CARTOGRAFIA</a>
-                </nav>
+                    <a href="#cartografia">link chamativo pra ver a cartografia</a>
 
-                <!-- Link para os vídeo na página -->
+                </div>
 
-                <!--
-                    Não senti que ter um botão para os vídeo seja necessário,
-                    pois no menu de navegação já tem um link interno do site
-                    para a mesma aba
-                -->
-
-                <a href="#documentarios" class="botao-destaque">
-                    DOCUMENTÁRIOS
-                </a>
+                <!-- Segunda coluna Imagem (direita) -->
+                <div>
+                    IMAGEM
+                </div>
 
             </div>
 
-        </header>
+        </section>
+        <!-- Fim Hero da Página -->
 
-        <!-- Conteúdo principal da página -->
-        conteúdo princial
 
-        <!-- Rodapé da página -->
-        <footer>
-            rodapé
-        </footer>
+        <!-- Seção de História de Tobias Barreto e das Técnicas de Bordado -->
+        <section id="historia">
 
-    </body>
+            <div>
 
+                <div>
+
+                    <!-- talvez agrupar titulo e subtitulo numa div, como no template -->
+                    <h2>TEXTO CHAMATIVO SOBRE A HISTORIA E LIGAÇÃO COM OS BORDADOS</h2>
+
+                    <p>texto em menos destaque para servir de subtitulo que contextualize mais ou menos mas não inteiramente</p> <!-- um resumo em uma frase não tão curta -->
+
+                </div>
+
+                <div>
+
+                    <!-- talvez agrupe história de tobias e técnicas de bordado numa div, como no template -->
+                    <!-- História de Tobias -->
+                    <div>
+                        
+                        <!-- enfeitar mais no sentindo estrutural, talvez eu n use no formato de card como no template usa -->
+                        <h3>titulo pro "card" explicativo sobre a historia de tobias</h3>
+
+                        <p>texto longo completo sobre a historia de tobias e como ela se liga com os bordados</p>
+
+                    </div>
+                    <!-- Fim História de Tobias -->
+
+                    <!-- Técnicas de Bordado -->
+                    <div>
+
+                        <!-- usa a tag h4 no lugar de h3, não sei se vou usar assim -->
+                        <h3>titulo pro "card" explicativo sobre as tecnicas de bordado de tobias</h3>
+
+                        <p>texto longo completo sobre as técnicas de bordado que estão presentes em tobias</p>
+
+                    </div>
+                    <!-- Fim Técnicas de Bordado -->
+                
+                </div>
+
+            </div>
+
+        </section>
+        <!-- Fim Seção de História de Tobias Barreto e das Técnicas de Bordado -->
+
+
+        <!-- Seção Documentários e Entrevistas -->
+        <section id="documentarios">
+            
+
+            <div>
+
+                <!-- ele usa uma div que agrupa os texto de apresentação e os cards de videos-->
+                <div>
+
+                    <span>frase destaque do que é a seção de videos</span> <!-- por exemplo, memória audiovisual -->
+                    
+                    <h2>TITULO DA SEÇÃO DE VIDEOS</h2>
+
+                    <p>texto convidativo a assistir os mini-documentarios e recortes de entrevistas com as mulheres artesãs</p>
+
+                </div>
+
+                <div>
+
+                    <p><strong>grade de videos com cards de videos de mini-documentarios e recortes de entrevistas</strong></p>
+                    <!-- tem um modelo de divisão de divs no template -->
+                    
+                    <div> <!-- grade de videos -->
+
+                        <div>
+                            Card 1
+                        </div>
+
+                        <div>
+                            Card 2
+                        </div>
+
+                        <div>
+                            Card 3
+                        </div>
+
+                        <!-- adicionar quantos mais cards forem necessários -->
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- Fim Seção Documentários e Entrevistas -->
+
+
+        <!-- Seção Cartografia Social -->
+        <section id="cartografia">
+
+            <div>
+
+                <!-- agrupamento dos textos -->
+                <div>
+
+                    <span>texto menor em destaque que descreve a seção de cartografia</span> <!-- por exemplo, geografia e território -->
+
+                    <h2>TITULO DA SEÇÃO SOBRE CARTOGRAFIA</h2>
+
+                    <p>texto curto em menor destaque que apresenta um pouco do proposito e forma de uso do mapa de cartografia social</p>
+
+                </div>
+
+                <!-- agrupamento dos elementos do mapa -->
+                <div>
+
+                    TEXTOS EXPLICATIVOS DO MAPA
+
+                    <!-- mapa em si -->
+                    <div>
+
+                        MAPA DE CARTOGRAFIA SOCIAL DOS PONTOS MAPEADOS
+
+                    </div>
+
+                </div>
+            
+            </div>
+
+        </section>
+        <!-- Fim Seção Cartografia Social -->
+
+
+    </main>
+    <!-- Fim Página Principal -->
+
+
+    <!-- Rodapé -->
+    <footer>
+
+        <!-- por que ele usa tanta subdivisões sem agrupamento interno? tipo um footer seguido de uma div dentro sem mais nada fora da div e dentro do footer -->
+        <div>
+
+            <p>nome do projeto seguido da cidade</p>
+            <span>mini texto informativo sobre autoria</span>
+
+        </div>
+
+    </footer>
+    <!-- Fim Rodapé -->
+
+</body>
 </html>
+
+<!-- deploy do arquivo teste01.html -->
