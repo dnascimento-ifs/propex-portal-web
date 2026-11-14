@@ -11,16 +11,21 @@
     <!-- Cabeçalho -->
     <header>
 
-        <nav class="menu">
+        <!-- Logo do Projeto -->
+        <a href="#">LOGO DO SITE</a>
+
+        <nav>
 
             <!-- ADICIONAR OS LINKS INTERNOS E REFERÊNCIAS DE ESTILO PRO CSS -->
-            <a>HISTORIA-TÉCNICA</a>
+            <a href="#historia">HISTORIA-TÉCNICA</a>
 
-            <a>DOCUMENTÁRIOS-ESTREVISTA</a>
+            <a href="#documentarios">DOCUMENTÁRIOS-ESTREVISTA</a>
 
-            <a>CARTOGRAFIA SOCIAL</a>
+            <a href="#cartografia">CARTOGRAFIA SOCIAL</a>
 
         </nav>
+
+        <a href="#documentarios">Assistir vídeos</a>
 
     </header>
     <!-- Fim Cabeçalho -->
@@ -31,31 +36,61 @@
 
 
         <!-- Hero da Página -->
-        <section class="hero">
+        <section>
             
-            <!-- A adicionar -->
+            <!-- Primeira coluna Texto (esquerda) -->
+            <div>
+                
+                <h1>FRASE CHAMATIVA PRINCIPAL</h1> <!-- talvez use span pra destacar algo -->
+
+                <p>texto explicativo sobre o portal em menos destaque e mais longo</p>
+
+                <!-- talvez separe os link em uma div -->
+                <a href="#historia">link chamativo pra ver a historia</a>
+
+                <a href="#cartografia">link chamativo pra ver a cartografia</a>
+
+            </div>
+
+            <!-- Segunda coluna Imagem (direita) -->
+             <div>
+                IMAGEM
+             </div>
+
 
         </section>
         <!-- Fim Hero da Página -->
 
 
         <!-- Seção de História de Tobias Barreto e das Técnicas de Bordado -->
-        <section class="historia-tecnica">
+        <section>
+
+            <!-- talvez agrupar titulo e subtitulo numa div, como no template -->
+            <h2>TEXTO CHAMATIVO SOBRE A HISTORIA E LIGAÇÃO COM OS BORDADOS</h2>
+
+            <p>texto em menos destaque para servir de subtitulo que contextualize mais ou menos mas não inteiramente</p> <!-- um resumo em uma frase não tão curta -->
 
 
+            <!-- talvez agrupe história de tobias e técnicas de bordado numa div, como no template -->
             <!-- História de Tobias -->
-            <section class="historia">
+            <section>
                 
-                <!-- A adicionar -->
+                <!-- enfeitar mais no sentindo estrutural, talvez eu n use no formato de card como no template usa -->
+                <h3>titulo pro "card" explicativo sobre a historia de tobias</h3>
+
+                <p>texto longo completo sobre a historia de tobias e como ela se liga com os bordados</p>
 
             </section>
             <!-- Fim História de Tobias -->
 
 
             <!-- Técnicas de Bordado -->
-            <section class="tecnica">
+            <section>
 
-                <!-- A adicionar -->
+                <!-- usa a tag h4 no lugar de h3, não sei se vou usar assim -->
+                <h3>titulo pro "card" explicativo sobre as tecnicas de bordado de tobias</h3>
+
+                <p>texto longo completo sobre as técnicas de bordado que estão presentes em tobias</p>
 
             </section>
             <!-- Fim Técnicas de Bordado -->
@@ -65,35 +100,78 @@
         <!-- Fim Seção de História de Tobias Barreto e das Técnicas de Bordado -->
 
         <!-- Seção Documentários e Entrevistas -->
-        <section class="documentarios-estrevistas">
+        <section>
             
 
             <!-- Seção Documentários -->
-            <section class="documentarios">
+            <!-- ele usa uma div que agrupa os texto de apresentação e os cards de videos-->
+            <section>
 
-                <!-- A adicionar -->
+                <span>frase destaque do que é a seção de videos</span> <!-- por exemplo, memória audiovisual -->
+                
+                <h2>TITULO DA SEÇÃO DE VIDEOS</h2>
+
+                <p>texto convidativo a assistir os mini-documentarios e recortes de entrevistas com as mulheres artesãs</p>
+
+            </section>
+
+            <section>
+
+                <p><strong>grade de videos com cards de videos de mini-documentarios e recortes de entrevistas</strong></p>
+                <!-- tem um modelo de divisão de divs no template -->
+                
+                <div> <!-- grade de videos -->
+
+                    <div>
+                        Card 1
+                    </div>
+
+                    <div>
+                        Card 2
+                    </div>
+
+                    <div>
+                        Card 3
+                    </div>
+
+                </div>
+
+                <!-- adicionar quantos mais cards forem necessários -->
 
             </section>
             <!-- Fim Seção Documentários -->
-
-
-            <!-- Seção Entrevistas -->
-            <section class="entrevistas">
-
-                <!-- A adicionar -->
-
-            </section>
-            <!-- Fim Seção Entrevistas -->
-
 
         </section>
         <!-- Fim Seção Documentários e Entrevistas -->
 
 
         <!-- Seção Cartografia Social -->
-        <section class="cartografia">
+        <section>
 
-            <!-- A adicionar -->
+            <!-- agrupamento dos textos -->
+            <div>
+
+                <span>texto menor em destaque que descreve a seção de cartografia</span> <!-- por exemplo, geografia e território -->
+
+                <h2>TITULO DA SEÇÃO SOBRE CARTOGRAFIA</h2>
+
+                <p>texto curto em menor destaque que apresenta um pouco do proposito e forma de uso do mapa de cartografia social</p>
+
+            </div>
+
+            <!-- agrupamento dos elementos do mapa -->
+            <div>
+
+                TEXTOS EXPLICATIVOS DO MAPA
+
+                <!-- mapa em si -->
+                <div>
+
+                    MAPA DE CARTOGRAFIA SOCIAL DOS PONTOS MAPEADOS
+
+                </div>
+
+            </div>
 
         </section>
         <!-- Fim Seção Cartografia Social -->
@@ -106,7 +184,13 @@
     <!-- Rodapé -->
     <footer>
 
-        <!-- A adicionar -->
+        <!-- por que ele usa tanta subdivisões sem agrupamento interno? tipo um footer seguido de uma div dentro sem mais nada fora da div e dentro do footer -->
+        <div>
+
+            <p>nome do projeto seguido da cidade</p>
+            <span>mini texto informativo sobre autoria</span>
+
+        </div>
 
     </footer>
     <!-- Fim Rodapé -->
